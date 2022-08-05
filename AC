@@ -4256,8 +4256,6 @@ CMDs[#CMDs + 1] = {NAME = 'enable [inventory/playerlist/chat/reset/all]', DESC =
 CMDs[#CMDs + 1] = {NAME = 'disable [inventory/playerlist/chat/reset/all]', DESC = 'Toggles visibility of coregui items'}
 CMDs[#CMDs + 1] = {NAME = 'hideguis', DESC = 'Hides any GUIs in PlayerGui'}
 CMDs[#CMDs + 1] = {NAME = 'unhideguis', DESC = 'Undoes hideguis'}
-CMDs[#CMDs + 1] = {NAME = 'guidelete', DESC = 'Enables backspace to delete GUI'}
-CMDs[#CMDs + 1] = {NAME = 'unguidelete / noguidelete', DESC = 'Disables guidelete'}
 CMDs[#CMDs + 1] = {NAME = 'hideiy', DESC = 'Hides the main IY GUI'}
 CMDs[#CMDs + 1] = {NAME = 'showiy / unhideiy', DESC = 'Shows IY again'}
 CMDs[#CMDs + 1] = {NAME = 'keepiy', DESC = 'Auto execute IY when you teleport through servers'}
@@ -4288,9 +4286,6 @@ CMDs[#CMDs + 1] = {NAME = 'thaw / unfr [plr] (CLIENT)', DESC = 'Unfreezes a play
 CMDs[#CMDs + 1] = {NAME = 'tpposition / tppos [X Y Z]', DESC = 'Teleports you to certain coordinates'}
 CMDs[#CMDs + 1] = {NAME = 'offset [X Y Z]', DESC = 'Offsets you by certain coordinates'}
 CMDs[#CMDs + 1] = {NAME = 'copyposition / copypos [plr]', DESC = 'Copies the coordinates of a character to your clipboard'}
-CMDs[#CMDs + 1] = {NAME = 'spawnpoint / spawn [delay]', DESC = 'Sets a position where you will spawn'}
-CMDs[#CMDs + 1] = {NAME = 'nospawnpoint / nospawn', DESC = 'Removes your custom spawn point'}
-CMDs[#CMDs + 1] = {NAME = 'flashback / diedtp', DESC = 'Teleports you to where you last died'}
 CMDs[#CMDs + 1] = {NAME = 'walltp', DESC = 'Teleports you above/over any wall you run into'}
 CMDs[#CMDs + 1] = {NAME = 'nowalltp / unwalltp', DESC = 'Disables walltp'}
 CMDs[#CMDs + 1] = {NAME = 'teleporttool / tptool', DESC = 'Gives you a teleport tool'}
@@ -4316,93 +4311,53 @@ CMDs[#CMDs + 1] = {NAME = 'freecam / fc', DESC = 'Allows you to freely move came
 CMDs[#CMDs + 1] = {NAME = 'freecamgoto / fcgoto / fctp [plr]', DESC = 'Moves / opens freecam to a player'}
 CMDs[#CMDs + 1] = {NAME = 'unfreecam / unfc', DESC = 'Disables freecam'}
 CMDs[#CMDs + 1] = {NAME = 'freecamspeed / fcspeed [num]', DESC = 'Adjusts freecam speed (default is 1)'}
-CMDs[#CMDs + 1] = {NAME = 'firstp', DESC = 'Forces camera to go into first person'}
-CMDs[#CMDs + 1] = {NAME = 'thirdp', DESC = 'Allows camera to go into third person'}
-CMDs[#CMDs + 1] = {NAME = 'noclipcam / nccam', DESC = 'Allows camera to go through objects like walls'}
 CMDs[#CMDs + 1] = {NAME = 'maxzoom [num]', DESC = 'Maximum camera zoom'}
 CMDs[#CMDs + 1] = {NAME = 'minzoom [num]', DESC = 'Minimum camera zoom'}
-CMDs[#CMDs + 1] = {NAME = 'fov [num]', DESC = 'Adjusts field of view (default is 70)'}
 CMDs[#CMDs + 1] = {NAME = 'fixcam / restorecam', DESC = 'Fixes camera'}
-CMDs[#CMDs + 1] = {NAME = 'enableshiftlock / enablesl', DESC = 'Enables the shift lock option'}
-CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'fullbright / fb (CLIENT)', DESC = 'Makes the map brighter / more visible'}
-CMDs[#CMDs + 1] = {NAME = 'day (CLIENT)', DESC = 'Changes the time to day for the client'}
-CMDs[#CMDs + 1] = {NAME = 'night (CLIENT)', DESC = 'Changes the time to night for the client'}
-CMDs[#CMDs + 1] = {NAME = 'nofog (CLIENT)', DESC = 'Removes fog'}
-CMDs[#CMDs + 1] = {NAME = 'brightness [num] (CLIENT)', DESC = 'Changes the brightness lighting property'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'inspect / examine [plr]', DESC = 'Opens InspectMenu for a certain player'}
-CMDs[#CMDs + 1] = {NAME = 'age [plr]', DESC = 'Tells you the age of a player'}
 CMDs[#CMDs + 1] = {NAME = 'chatage [plr]', DESC = 'Chats the age of a player'}
 CMDs[#CMDs + 1] = {NAME = 'copyname / copyuser [plr]', DESC = 'Copies a players full username to your clipboard'}
-CMDs[#CMDs + 1] = {NAME = 'userid / id [plr]', DESC = 'Notifies a players user ID'}
 CMDs[#CMDs + 1] = {NAME = 'copyuserid / copyid [plr]', DESC = 'Copies a players user ID to your clipboard'}
 CMDs[#CMDs + 1] = {NAME = 'bang [plr] [speed]', DESC = 'owo'}
 CMDs[#CMDs + 1] = {NAME = 'unbang', DESC = 'uwu'}
-CMDs[#CMDs + 1] = {NAME = 'friend [plr]', DESC = 'Sends a friend request to certain players'}
-CMDs[#CMDs + 1] = {NAME = 'unfriend [plr]', DESC = 'Unfriends certain players'}
 CMDs[#CMDs + 1] = {NAME = 'headsit [plr]', DESC = 'Sit on a players head'}
 CMDs[#CMDs + 1] = {NAME = 'stareat / stare [plr]', DESC = 'Stare / look at a player'}
 CMDs[#CMDs + 1] = {NAME = 'unstareat / unstare [plr]', DESC = 'Disables stareat'}
-CMDs[#CMDs + 1] = {NAME = 'attach [plr] (TOOL)', DESC = 'Attaches you to a player (YOU NEED A TOOL)'}
 CMDs[#CMDs + 1] = {NAME = 'fling', DESC = 'Flings anyone you touch'}
 CMDs[#CMDs + 1] = {NAME = 'unfling', DESC = 'Disables the fling command'}
-CMDs[#CMDs + 1] = {NAME = 'invisfling', DESC = 'Enables invisible fling'}
-CMDs[#CMDs + 1] = {NAME = 'muteboombox [plr]', DESC = 'Mutes someones boombox'}
-CMDs[#CMDs + 1] = {NAME = 'unmuteboombox [plr]', DESC = 'Unmutes someones boombox'}
-CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
+CMDs[#CMDs + 1] = {NAME = 'mute [plr]', DESC = 'Mutes someones boombox'}
+CMDs[#CMDs + 1] = {NAME = 'unmute [plr]', DESC = 'Unmutes someones boombox'}
 CMDs[#CMDs + 1] = {NAME = 'invisible / invis', DESC = 'Makes you invisible to other players'}
 CMDs[#CMDs + 1] = {NAME = 'visible / vis', DESC = 'Makes you visible to other players'}
-CMDs[#CMDs + 1] = {NAME = 'toolinvisible / toolinvis / tinvis', DESC = 'Makes you invisible to other players and able to use tools'}
+CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'loopspeed / loopws [num]', DESC = 'Loops your walkspeed'}
 CMDs[#CMDs + 1] = {NAME = 'unloopspeed / unloopws', DESC = 'Turns off loopspeed'}
 CMDs[#CMDs + 1] = {NAME = 'hipheight / hheight [num]', DESC = 'Adjusts hip height'}
 CMDs[#CMDs + 1] = {NAME = 'loopjumppower / loopjp [num]', DESC = 'Loops your jump height'}
 CMDs[#CMDs + 1] = {NAME = 'unloopjumppower / unloopjp', DESC = 'Turns off loopjumppower'}
-CMDs[#CMDs + 1] = {NAME = 'maxslopeangle / msa [num]', DESC = 'Adjusts MaxSlopeAngle'}
-CMDs[#CMDs + 1] = {NAME = 'gravity / grav [num] (CLIENT)', DESC = 'Change your gravity'}
 CMDs[#CMDs + 1] = {NAME = 'sit', DESC = 'Makes your character sit'}
 CMDs[#CMDs + 1] = {NAME = 'lay / laydown', DESC = 'Makes your character lay down'}
-CMDs[#CMDs + 1] = {NAME = 'sitwalk', DESC = 'Makes your character sit while still being able to walk'}
 CMDs[#CMDs + 1] = {NAME = 'nosit', DESC = 'Prevents your character from sitting'}
 CMDs[#CMDs + 1] = {NAME = 'unnosit', DESC = 'Disables nosit'}
 CMDs[#CMDs + 1] = {NAME = 'jump', DESC = 'Makes your character jump'}
-CMDs[#CMDs + 1] = {NAME = 'infinitejump / infjump', DESC = 'Allows you to jump before hitting the ground'}
-CMDs[#CMDs + 1] = {NAME = 'uninfinitejump / uninfjump', DESC = 'Disables infjump'}
 CMDs[#CMDs + 1] = {NAME = 'flyjump', DESC = 'Allows you to hold space to fly up'}
 CMDs[#CMDs + 1] = {NAME = 'unflyjump', DESC = 'Disables flyjump'}
 CMDs[#CMDs + 1] = {NAME = 'autojump / ajump', DESC = 'Automatically jumps when you run into an object'}
 CMDs[#CMDs + 1] = {NAME = 'unautojump / unajump', DESC = 'Disables autojump'}
-CMDs[#CMDs + 1] = {NAME = 'edgejump / ejump', DESC = 'Automatically jumps when you get to the edge of an object'}
-CMDs[#CMDs + 1] = {NAME = 'unedgejump / unejump', DESC = 'Disables edgejump'}
 CMDs[#CMDs + 1] = {NAME = 'platformstand / stun', DESC = 'Enables PlatformStand'}
-CMDs[#CMDs + 1] = {NAME = 'unplatformstand / unstun', DESC = 'Disables PlatformStand'}
-CMDs[#CMDs + 1] = {NAME = 'nohead / headless', DESC = 'Removes your head (uses simulation radius)'}
 CMDs[#CMDs + 1] = {NAME = 'noarms', DESC = 'Removes your arms'}
 CMDs[#CMDs + 1] = {NAME = 'nolegs', DESC = 'Removes your legs'}
-CMDs[#CMDs + 1] = {NAME = 'nolimbs', DESC = 'Removes your limbs'}
-CMDs[#CMDs + 1] = {NAME = 'naked (CLIENT)', DESC = 'Removes your clothing'}
 CMDs[#CMDs + 1] = {NAME = 'noface / removeface', DESC = 'Removes your face'}
 CMDs[#CMDs + 1] = {NAME = 'drophats', DESC = 'Drops your hats'}
 CMDs[#CMDs + 1] = {NAME = 'nohats / deletehats / rhats', DESC = 'Deletes your hats'}
 CMDs[#CMDs + 1] = {NAME = 'hatspin / spinhats', DESC = 'Spins your characters accessories'}
 CMDs[#CMDs + 1] = {NAME = 'unhatspin / unspinhats', DESC = 'Undoes spinhats'}
 CMDs[#CMDs + 1] = {NAME = 'clearhats / cleanhats', DESC = 'Clears hats in the workspace'}
-CMDs[#CMDs + 1] = {NAME = 'deletevelocity / dv / removeforces', DESC = 'Removes any velocity / force instances in your character'}
-CMDs[#CMDs + 1] = {NAME = 'breakvelocity', DESC = 'Sets your characters velocity to 0'}
 CMDs[#CMDs + 1] = {NAME = 'spin [speed]', DESC = 'Spins your character'}
 CMDs[#CMDs + 1] = {NAME = 'unspin', DESC = 'Disables spin'}
 CMDs[#CMDs + 1] = {NAME = 'split', DESC = 'Splits your character in half'}
-CMDs[#CMDs + 1] = {NAME = 'noroot / removeroot / rroot', DESC = 'Removes your characters HumanoidRootPart'}
-CMDs[#CMDs + 1] = {NAME = 'replaceroot', DESC = 'Replaces your characters HumanoidRootPart'}
 CMDs[#CMDs + 1] = {NAME = 'clearcharappearance / clearchar / clrchar', DESC = 'Removes all accessory, shirt, pants, charactermesh, and bodycolors'}
-CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
-CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
-CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
-CMDs[#CMDs + 1] = {NAME = 'spasm', DESC = 'Makes you  c r a z y'}
-CMDs[#CMDs + 1] = {NAME = 'unspasm', DESC = 'Stops spasm'}
-CMDs[#CMDs + 1] = {NAME = 'headthrow', DESC = 'Simply makes you throw your head'}
 CMDs[#CMDs + 1] = {NAME = 'copyanimation / copyanim / copyemote [plr]', DESC = 'Copies someone elses animation'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'autoclick [click delay] [release delay]', DESC = 'Automatically clicks your mouse with a set delay'}
@@ -4411,27 +4366,16 @@ CMDs[#CMDs + 1] = {NAME = 'autokeypress [key] [down delay] [up delay]', DESC = '
 CMDs[#CMDs + 1] = {NAME = 'unautokeypress', DESC = 'Stops autokeypress'}
 CMDs[#CMDs + 1] = {NAME = 'hovername', DESC = 'Shows a players username when your mouse is hovered over them'}
 CMDs[#CMDs + 1] = {NAME = 'unhovername / nohovername', DESC = 'Turns off hovername'}
-CMDs[#CMDs + 1] = {NAME = 'clickdelete', DESC = 'Go to settings>Keybinds>Add for clicktp'}
-CMDs[#CMDs + 1] = {NAME = 'clickteleport', DESC = 'Go to settings>Keybinds>Add for click tp'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'grabtools', DESC = 'Automatically get tools that are dropped'}
-CMDs[#CMDs + 1] = {NAME = 'ungrabtools / nograbtools', DESC = 'Disables grabtools'}
-CMDs[#CMDs + 1] = {NAME = 'dupetools / clonetools [num]', DESC = 'Duplicates your inventory tools a set ammount of times'}
-CMDs[#CMDs + 1] = {NAME = 'droptools', DESC = 'Drops your tools'}
-CMDs[#CMDs + 1] = {NAME = 'droppabletools', DESC = 'Makes your tools droppable'}
 CMDs[#CMDs + 1] = {NAME = 'equiptools', DESC = 'Equips every tool in your inventory at once'}
 CMDs[#CMDs + 1] = {NAME = 'unequiptools', DESC = 'Unequips every tool you are currently holding at once'}
-CMDs[#CMDs + 1] = {NAME = 'usetools [ammount] [delay]', DESC = 'Activates all tools in your backpack at the same time'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'addplugin / plugin [name]', DESC = 'Add a plugin via command'}
 CMDs[#CMDs + 1] = {NAME = 'removeplugin / deleteplugin [name]', DESC = 'Remove a plugin via command'}
 CMDs[#CMDs + 1] = {NAME = 'reloadplugin [name]', DESC = 'Reloads a plugin'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'breakloops / break (cmd loops)', DESC = 'Stops any cmd loops (;100^1^cmd)'}
-CMDs[#CMDs + 1] = {NAME = 'removecmd / deletecmd', DESC = 'Removes a command until the admin is reloaded'}
 CMDs[#CMDs + 1] = {NAME = 'tpwalk / teleportwalk [num]', DESC = 'Teleports you to your move direction'}
 CMDs[#CMDs + 1] = {NAME = 'untpwalk / unteleportwalk', DESC = 'Undoes tpwalk / teleportwalk'}
-CMDs[#CMDs + 1] = {NAME = 'notifyping / ping', DESC = 'Notify yourself your ping'}
 CMDs[#CMDs + 1] = {NAME = 'trip', DESC = 'Makes your character fall over'}
 wait()
 
@@ -7720,33 +7664,6 @@ addcmd('deletevelocity',{'dv','removevelocity','removeforces'},function(args, sp
 	end
 end)
 
-addcmd('deleteinvisparts',{'deleteinvisibleparts','dip'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v:IsA("BasePart") and v.Transparency == 1 and v.CanCollide then
-			v:Destroy()
-		end
-	end
-end)
-
-local shownParts = {}
-addcmd('invisibleparts',{'invisparts'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v:IsA("BasePart") and v.Transparency == 1 then
-			if not table.find(shownParts,v) then
-				table.insert(shownParts,v)
-			end
-			v.Transparency = 0
-		end
-	end
-end)
-
-addcmd('uninvisibleparts',{'uninvisparts'},function(args, speaker)
-	for i,v in pairs(shownParts) do
-		v.Transparency = 1
-	end
-	shownParts = {}
-end)
-
 addcmd('btools',{},function(args, speaker)
 	for i = 1, 4 do
 		local Tool = Instance.new("HopperBin")
@@ -7940,38 +7857,7 @@ addcmd('goto',{'to'},function(args, speaker)
 	execCmd('breakvelocity')
 end)
 
-addcmd('tweengoto',{'tgoto','tto','tweento'},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		if Players[v].Character ~= nil then
-			if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-				wait(.1)
-			end
-			TweenService:Create(getRoot(speaker.Character), TweenInfo.new(tweenSpeed, Enum.EasingStyle.Linear), {CFrame = getRoot(Players[v].Character).CFrame + Vector3.new(3,1,0)}):Play()
-		end
-	end
-	execCmd('breakvelocity')
-end)
-
-addcmd('vehiclegoto',{'vgoto','vtp','vehicletp'},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		if Players[v].Character ~= nil then
-			local seat = speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart
-			local vehicleModel = seat.Parent
-			repeat
-				if vehicleModel.ClassName ~= "Model" then
-					vehicleModel = vehicleModel.Parent
-				end
-			until vehicleModel.ClassName == "Model"
-			wait(0.1)
-			vehicleModel:MoveTo(getRoot(Players[v].Character).Position)
-		end
-	end
-end)
-
-addcmd('pulsetp',{'ptp'},function(args, speaker)
+addcmd('timetp',{'ptp'},function(args, speaker)
 	local players = getPlayer(args[1], speaker)
 	for i,v in pairs(players)do
 		if Players[v].Character ~= nil then
@@ -7987,42 +7873,6 @@ addcmd('pulsetp',{'ptp'},function(args, speaker)
 		end
 	end
 	execCmd('breakvelocity')
-end)
-
-local vnoclipParts = {}
-addcmd('vehiclenoclip',{'vnoclip'},function(args, speaker)
-	vnoclipParts = {}
-	local seat = speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart
-	local vehicleModel = seat.Parent
-	repeat
-		if vehicleModel.ClassName ~= "Model" then
-			vehicleModel = vehicleModel.Parent
-		end
-	until vehicleModel.ClassName == "Model"
-	wait(0.1)
-	execCmd('noclip')
-	for i,v in pairs(vehicleModel:GetDescendants()) do
-		if v:IsA("BasePart") and v.CanCollide then
-			table.insert(vnoclipParts,v)
-			v.CanCollide = false
-		end
-	end
-end)
-
-addcmd('vehicleclip',{'vclip','unvnoclip','unvehiclenoclip'},function(args, speaker)
-	execCmd('clip')
-	for i,v in pairs(vnoclipParts) do
-		v.CanCollide = true
-	end
-	vnoclipParts = {}
-end)
-
-addcmd('togglevnoclip',{},function(args, speaker)
-	if Clip then
-		execCmd('vnoclip')
-	else
-		execCmd('vclip')
-	end
 end)
 
 addcmd('unwalkto',{'nowalkto','unfollow','nofollow'},function(args, speaker)
@@ -8060,26 +7910,8 @@ addcmd('thaw',{'unfreeze','unfr'},function(args, speaker)
 	end
 end)
 
-oofing = false
-addcmd('loopoof',{},function(args, speaker)
-	oofing = true
-	repeat wait(0.1)
-		for i,v in pairs(Players:GetPlayers()) do
-			if v.Character ~= nil and v.Character:FindFirstChild'Head' then
-				for _,x in pairs(v.Character.Head:GetChildren()) do
-					if x:IsA'Sound' then x.Playing = true end
-				end
-			end
-		end
-	until oofing == false
-end)
-
-addcmd('unloopoof',{},function(args, speaker)
-	oofing = false
-end)
-
 local notifiedRespectFiltering = false
-addcmd('muteboombox',{},function(args, speaker)
+addcmd('mute',{},function(args, speaker)
 	if not notifiedRespectFiltering and SoundService.RespectFilteringEnabled then notifiedRespectFiltering = true notify('RespectFilteringEnabled','RespectFilteringEnabled is set to true (the command will still work but may only be clientsided)') end
 	local players = getPlayer(args[1], speaker)
 	if players ~= nil then
@@ -8100,7 +7932,7 @@ addcmd('muteboombox',{},function(args, speaker)
 	end
 end)
 
-addcmd('unmuteboombox',{},function(args, speaker)
+addcmd('unmute',{},function(args, speaker)
 	if not notifiedRespectFiltering and SoundService.RespectFilteringEnabled then notifiedRespectFiltering = true notify('RespectFilteringEnabled','RespectFilteringEnabled is set to true (the command will still work but may only be clientsided)') end
 	local players = getPlayer(args[1], speaker)
 	if players ~= nil then
@@ -8242,125 +8074,6 @@ addcmd('visible',{'vis'},function(args, speaker)
 	TurnVisible()
 end)
 
-addcmd('toggleinvis',{},function(args, speaker)
-	if invisRunning then
-		execCmd('visible')
-	else
-		execCmd('invisible')
-	end
-end)
-
-addcmd('toolinvisible',{'toolinvis','tinvis'},function(args, speaker)
-	local Char  = Players.LocalPlayer.Character
-	local touched = false
-	local tpdback = false
-	local box = Instance.new('Part')
-	box.Anchored = true
-	box.CanCollide = true
-	box.Size = Vector3.new(10,1,10)
-	box.Position = Vector3.new(0,10000,0)
-	box.Parent = workspace
-	local boxTouched = box.Touched:connect(function(part)
-		if (part.Parent.Name == Players.LocalPlayer.Name) then
-			if touched == false then
-				touched = true
-				local function apply()
-					local no = Char.HumanoidRootPart:Clone()
-					wait(.25)
-					Char.HumanoidRootPart:Destroy()
-					no.Parent = Char
-					Char:MoveTo(loc)
-					touched = false
-				end
-				if Char then
-					apply()
-				end
-			end
-		end
-	end)
-	repeat wait() until Char
-	local cleanUp
-	cleanUp = Players.LocalPlayer.CharacterAdded:connect(function(char)
-		boxTouched:Disconnect()
-		box:Destroy()
-		cleanUp:Disconnect()
-	end)
-	loc = Char.HumanoidRootPart.Position
-	Char:MoveTo(box.Position + Vector3.new(0,.5,0))
-end)
-
-addcmd('strengthen',{},function(args, speaker)
-	for _, child in pairs(speaker.Character:GetDescendants()) do
-		if child.ClassName == "Part" then
-			if args[1] then
-				child.CustomPhysicalProperties = PhysicalProperties.new(args[1], 0.3, 0.5)
-			else
-				child.CustomPhysicalProperties = PhysicalProperties.new(100, 0.3, 0.5)
-			end
-		end
-	end
-end)
-
-addcmd('weaken',{},function(args, speaker)
-	for _, child in pairs(speaker.Character:GetDescendants()) do
-		if child.ClassName == "Part" then
-			if args[1] then
-				child.CustomPhysicalProperties = PhysicalProperties.new(-args[1], 0.3, 0.5)
-			else
-				child.CustomPhysicalProperties = PhysicalProperties.new(0, 0.3, 0.5)
-			end
-		end
-	end
-end)
-
-addcmd('unweaken',{'unstrengthen'},function(args, speaker)
-	for _, child in pairs(speaker.Character:GetDescendants()) do
-		if child.ClassName == "Part" then
-			child.CustomPhysicalProperties = PhysicalProperties.new(0.7, 0.3, 0.5)
-		end
-	end
-end)
-
-addcmd('breakvelocity', {}, function(args, speaker)
-	local BeenASecond, V3 = false, Vector3.new(0, 0, 0)
-	delay(1, function()
-		BeenASecond = true
-	end)
-	while not BeenASecond do
-		for _, v in ipairs(speaker.Character:GetDescendants()) do
-			if v.IsA(v, "BasePart") then
-				v.Velocity, v.RotVelocity = V3, V3
-			end
-		end
-		wait()
-	end
-end)
-
-addcmd('jpower',{'jumppower','jp'},function(args, speaker)
-	local jpower = args[1] or 50
-	if isNumber(jpower) then
-		if speaker.Character:FindFirstChildOfClass('Humanoid').UseJumpPower then
-			speaker.Character:FindFirstChildOfClass('Humanoid').JumpPower = jpower
-		else
-			speaker.Character:FindFirstChildOfClass('Humanoid').JumpHeight  = jpower
-		end
-	end
-end)
-
-addcmd('maxslopeangle',{'msa'},function(args, speaker)
-	local sangle = args[1] or 89
-	if isNumber(sangle) then
-		speaker.Character:FindFirstChildOfClass('Humanoid').MaxSlopeAngle = sangle
-	end
-end)
-
-addcmd('gravity',{'grav'},function(args, speaker)
-	local grav = args[1] or 196.2
-	if isNumber(grav) then
-		workspace.Gravity = grav
-	end
-end)
-
 addcmd('hipheight',{'hheight'},function(args, speaker)
 	local height
 	if r15(speaker) then
@@ -8371,94 +8084,9 @@ addcmd('hipheight',{'hheight'},function(args, speaker)
 	speaker.Character:FindFirstChildOfClass('Humanoid').HipHeight = height
 end)
 
-addcmd('dance', {}, function(args, speaker)
-	if not r15(speaker) then
-		local dances = {"27789359", "30196114", "248263260", "45834924", "33796059", "28488254", "52155728"}
-		local animation = Instance.new("Animation")
-		animation.AnimationId = "rbxassetid://" .. dances[math.random(1, #dances)]
-		animTrack = speaker.Character:FindFirstChildOfClass('Humanoid'):LoadAnimation(animation)
-		animTrack:Play()
-	else
-		notify('R6 Required', 'This command requires the r6 rig type')
-	end
-end)
-
 addcmd('undance',{'nodance'},function(args, speaker)
 	animTrack:Stop()
 	animTrack:Destroy()
-end)
-
-addcmd('nolimbs',{'rlimbs'},function(args, speaker)
-	if r15(speaker) then
-		for i,v in pairs(speaker.Character:GetChildren()) do
-			if v:IsA("BasePart") and
-				v.Name == "RightUpperLeg" or
-				v.Name == "LeftUpperLeg" or
-				v.Name == "RightUpperArm" or
-				v.Name == "LeftUpperArm" then
-				v:Destroy()
-			end
-		end
-	else
-		for i,v in pairs(speaker.Character:GetChildren()) do
-			if v:IsA("BasePart") and
-				v.Name == "Right Leg" or
-				v.Name == "Left Leg" or
-				v.Name == "Right Arm" or
-				v.Name == "Left Arm" then
-				v:Destroy()
-			end
-		end
-	end
-end)
-
-addcmd('nohead',{'rhead','headless'},function(args, speaker)
-	if sethidden then
-		-- Full credit to Thomas_Cornez#0272 @Discord
-		local lplr = Players.LocalPlayer
-		local char = lplr.Character
-		local rig = tostring(char:FindFirstChildOfClass('Humanoid').RigType) == "Enum.HumanoidRigType.R6" and 1 or tostring(char:FindFirstChildOfClass('Humanoid').RigType) == "Enum.HumanoidRigType.R15" and 2
-
-		local speaker = Players.LocalPlayer
-
-		sethidden(speaker, "SimulationRadius", math.huge)
-
-		local test = Instance.new("Model")
-		local hum  = Instance.new("Humanoid")
-		local animation = Instance.new("Model")
-		local humanoidanimation = Instance.new("Humanoid")
-		test.Parent = workspace
-		hum.Parent = test
-		animation.Parent = workspace
-		humanoidanimation.Parent = animation
-
-		lplr.Character = test
-		wait(2)
-		char:FindFirstChildOfClass('Humanoid').Animator.Parent = humanoidanimation
-		char:FindFirstChildOfClass('Humanoid'):Destroy()
-
-		char.Head:Destroy()
-		wait(5)
-		Players.LocalPlayer.Character = char
-
-		local hum2 = Instance.new("Humanoid")
-		hum2.Parent = char
-		char:FindFirstChildOfClass("Humanoid").Jump = true
-
-		humanoidanimation.Animator.Parent = hum2
-		char.Animate.Disabled = true
-		wait()
-		char.Animate.Disabled = false
-		wait()
-
-		if rig == 1 then
-			hum2.HipHeight = 0
-		elseif rig == 2 then
-			hum2.HipHeight = 2.19
-		end
-	else
-		notify('Incompatible Exploit','Your exploit does not support this command (missing sethiddenproperty)')
-	end
 end)
 
 addcmd('noarms',{'rarms'},function(args, speaker)
@@ -8553,18 +8181,6 @@ addcmd('unnosit',{},function(args, speaker)
 	if noSit then noSit:Disconnect() nositDied:Disconnect() end
 end)
 
-addcmd('jump',{},function(args, speaker)
-	speaker.Character:FindFirstChildOfClass("Humanoid").Jump = true
-end)
-
-addcmd('infjump',{'infinitejump'},function(args, speaker)
-	infJump = true
-end)
-
-addcmd('uninfjump',{'uninfinitejump','noinfjump','noinfinitejump'},function(args, speaker)
-	infJump = false
-end)
-
 local flyjump
 addcmd('flyjump',{},function(args, speaker)
 	if flyjump then flyjump:Disconnect() end
@@ -8604,144 +8220,6 @@ addcmd('unautojump',{'noautojump', 'noajump', 'unajump'},function(args, speaker)
 	HumanModCons.ajCA = (HumanModCons.ajCA and HumanModCons.ajCA:Disconnect() and false) or nil
 end)
 
-addcmd('edgejump',{'ejump'},function(args, speaker)
-	local Char = speaker.Character
-	local Human = Char and Char:FindFirstChildWhichIsA("Humanoid")
-	-- Full credit to NoelGamer06 @V3rmillion
-	local state
-	local laststate
-	local lastcf
-	local function edgejump()
-		if Char and Human then
-			laststate = state
-			state = Human:GetState()
-			if laststate ~= state and state == Enum.HumanoidStateType.Freefall and laststate ~= Enum.HumanoidStateType.Jumping then
-				Char.HumanoidRootPart.CFrame = lastcf
-				Char.HumanoidRootPart.Velocity = Vector3.new(Char.HumanoidRootPart.Velocity.X, Human.JumpPower or Human.JumpHeight, Char.HumanoidRootPart.Velocity.Z)
-			end
-			lastcf = Char.HumanoidRootPart.CFrame
-		end
-	end
-	edgejump()
-	HumanModCons.ejLoop = (HumanModCons.ejLoop and HumanModCons.ejLoop:Disconnect() and false) or RunService.RenderStepped:Connect(edgejump)
-	HumanModCons.ejCA = (HumanModCons.ejCA and HumanModCons.ejCA:Disconnect() and false) or speaker.CharacterAdded:Connect(function(nChar)
-		Char, Human = nChar, nChar:WaitForChild("Humanoid")
-		edgejump()
-		HumanModCons.ejLoop = (HumanModCons.ejLoop and HumanModCons.ejLoop:Disconnect() and false) or RunService.RenderStepped:Connect(edgejump)
-	end)
-end)
-
-addcmd('unedgejump',{'noedgejump', 'noejump', 'unejump'},function(args, speaker)
-	HumanModCons.ejLoop = (HumanModCons.ejLoop and HumanModCons.ejLoop:Disconnect() and false) or nil
-	HumanModCons.ejCA = (HumanModCons.ejCA and HumanModCons.ejCA:Disconnect() and false) or nil
-end)
-
-addcmd('team',{},function(args, speaker)
-	local teamname = nil
-	for a,b in pairs(Teams:GetChildren()) do
-		local L_name = b.Name:lower()
-		local F = L_name:find(getstring(1))
-		if F == 1 then
-			teamname = b 
-		end
-	end
-	speaker.Team = teamname
-end)
-
-addcmd('nobgui',{'unbgui','nobillboardgui','unbillboardgui','noname','rohg'},function(args, speaker)
-	for i,v in pairs(speaker.Character:GetDescendants())do
-		if v:IsA("BillboardGui") or v:IsA("SurfaceGui") then
-			v:Destroy()
-		end
-	end
-end)
-
-addcmd('loopnobgui',{'loopunbgui','loopnobillboardgui','loopunbillboardgui','loopnoname','looprohg'},function(args, speaker)
-	for i,v in pairs(speaker.Character:GetDescendants())do
-		if v:IsA("BillboardGui") or v:IsA("SurfaceGui") then
-			v:Destroy()
-		end
-	end
-	local function charPartAdded(part)
-		if part:IsA("BillboardGui") or part:IsA("SurfaceGui") then
-			wait()
-			part:Destroy()
-		end
-	end
-	charPartTrigger = speaker.Character.DescendantAdded:Connect(charPartAdded)
-end)
-
-addcmd('unloopnobgui',{'unloopunbgui','unloopnobillboardgui','unloopunbillboardgui','unloopnoname','unlooprohg'},function(args, speaker)
-	if charPartTrigger then
-		charPartTrigger:Disconnect()
-	end
-end)
-
-addcmd('spasm',{},function(args, speaker)
-	if not r15(speaker) then
-		local pchar=speaker.Character
-		local AnimationId = "33796059"
-		SpasmAnim = Instance.new("Animation")
-		SpasmAnim.AnimationId = "rbxassetid://"..AnimationId
-		Spasm = pchar:FindFirstChildOfClass('Humanoid'):LoadAnimation(SpasmAnim)
-		Spasm:Play()
-		Spasm:AdjustSpeed(99)
-	else
-		notify('R6 Required','This command requires the r6 rig type')
-	end
-end)
-
-addcmd('unspasm',{'nospasm'},function(args, speaker)
-	Spasm:Stop()
-	SpasmAnim:Destroy()
-end)
-
-addcmd('headthrow',{},function(args, speaker)
-	if not r15(speaker) then
-		local AnimationId = "35154961"
-		local Anim = Instance.new("Animation")
-		Anim.AnimationId = "rbxassetid://"..AnimationId
-		local k = speaker.Character:FindFirstChildOfClass('Humanoid'):LoadAnimation(Anim)
-		k:Play(0)
-		k:AdjustSpeed(1)
-	else
-		notify('R6 Required','This command requires the r6 rig type')
-	end
-end)
-
-addcmd('animation',{'anim'},function(args, speaker)
-	if not r15(speaker) then
-		local pchar=speaker.Character
-		local AnimationId = tostring(args[1])
-		local Anim = Instance.new("Animation")
-		Anim.AnimationId = "rbxassetid://"..AnimationId
-		local k = pchar:FindFirstChildOfClass('Humanoid'):LoadAnimation(Anim)
-		k:Play()
-		if args[2] then
-			k:AdjustSpeed(tostring(args[2]))
-		end
-	else
-		notify('R6 Required','This command requires the r6 rig type')
-	end
-end)
-
-addcmd('noanim',{},function(args, speaker)
-	speaker.Character.Animate.Disabled = true
-end)
-
-addcmd('reanim',{},function(args, speaker)
-	speaker.Character.Animate.Disabled = false
-end)
-
-addcmd('animspeed',{},function(args, speaker)
-	local Char = speaker.Character
-	local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
-
-	for i,v in next, Hum:GetPlayingAnimationTracks() do
-		v:AdjustSpeed(tonumber(args[1] or 1))
-	end
-end)
-
 addcmd('copyanimation',{'copyanim','copyemote'},function(args, speaker)
 	local players = getPlayer(args[1], speaker)
 	for _,v in ipairs(players)do
@@ -8761,47 +8239,6 @@ addcmd('copyanimation',{'copyanim','copyemote'},function(args, speaker)
 				end)
 			end
 		end
-	end
-end)
-
-addcmd('stopanimations',{'stopanims','stopanim'},function(args, speaker)
-	local Char = speaker.Character
-	local Hum = Char:FindFirstChildOfClass("Humanoid") or Char:FindFirstChildOfClass("AnimationController")
-
-	for i,v in next, Hum:GetPlayingAnimationTracks() do
-		v:Stop()
-	end
-end)
-
-addcmd('refreshanimations', {'refreshanimation', 'refreshanims', 'refreshanim'}, function(args, speaker)
-	local Char = speaker.Character or speaker.CharacterAdded:Wait()
-	local Human = Char and Char:WaitForChild('Humanoid', 15)
-	local Animate = Char and Char:WaitForChild('Animate', 15)
-	if not Human or not Animate then
-		return notify('Refresh Animations', 'Failed to get Animate/Humanoid')
-	end
-	Animate.Disabled = true
-	for _, v in ipairs(Human:GetPlayingAnimationTracks()) do
-		v:Stop()
-	end
-	Animate.Disabled = false
-end)
-
-addcmd('allowcustomanim', {'allowcustomanimations'}, function(args, speaker)
-	StarterPlayer.AllowCustomAnimations = true
-	execCmd('refreshanimations')
-end)
-
-addcmd('unallowcustomanim', {'unallowcustomanimations'}, function(args, speaker)
-	StarterPlayer.AllowCustomAnimations = false
-	execCmd('refreshanimations')
-end)
-
-addcmd('loopanimation', {'loopanim'},function(args, speaker)
-	local Char = speaker.Character
-	local Human = Char and Char.FindFirstChildWhichIsA(Char, "Humanoid")
-	for _, v in ipairs(Human.GetPlayingAnimationTracks(Human)) do
-		v.Looped = true
 	end
 end)
 
@@ -8832,21 +8269,6 @@ addcmd('offset',{},function(args, speaker)
 	end
 end)
 
-addcmd('tweenoffset',{'toffset'},function(args, speaker)
-	if #args < 3 then return end
-	local tpX,tpY,tpZ = tonumber(args[1]),tonumber(args[2]),tonumber(args[3])
-	local char = speaker.Character
-	if char and getRoot(char) then
-		TweenService:Create(getRoot(speaker.Character), TweenInfo.new(tweenSpeed, Enum.EasingStyle.Linear), {CFrame = CFrame.new(tpX,tpY,tpZ)}):Play()
-	end
-end)
-
-addcmd('clickteleport',{},function(args, speaker)
-	if speaker == Players.LocalPlayer then
-		notify('Click TP','Go to Settings>Keybinds>Add to set up click tp')
-	end
-end)
-
 addcmd('tptool', {'teleporttool'}, function(args, speaker)
 	local TpTool = Instance.new("Tool")
 	TpTool.Name = "Teleport Tool"
@@ -8862,26 +8284,6 @@ addcmd('tptool', {'teleporttool'}, function(args, speaker)
 	end)
 end)
 
-addcmd('clickdelete',{},function(args, speaker)
-	if speaker == Players.LocalPlayer then
-		notify('Click Delete','Go to Settings>Keybinds>Add to set up click delete')
-	end
-end)
-
-addcmd('getposition',{'getpos','notifypos','notifyposition'},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		local char = Players[v].Character
-		local pos = char and (getRoot(char) or char:FindFirstChildWhichIsA("BasePart"))
-		pos = pos and pos.Position
-		if not pos then
-			return notify('Getposition Error','Missing character')
-		end
-		local roundedPos = math.round(pos.X) .. ", " .. math.round(pos.Y) .. ", " .. math.round(pos.Z)
-		notify('Current Position',roundedPos)
-	end
-end)
-
 addcmd('copyposition',{'copypos'},function(args, speaker)
 	local players = getPlayer(args[1], speaker)
 	for i,v in pairs(players)do
@@ -8894,14 +8296,6 @@ addcmd('copyposition',{'copypos'},function(args, speaker)
 		local roundedPos = math.round(pos.X) .. ", " .. math.round(pos.Y) .. ", " .. math.round(pos.Z)
 		toClipboard(roundedPos)
 	end
-end)
-
-addcmd('walktopos',{'walktoposition'},function(args, speaker)
-	if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-		speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-		wait(.1)
-	end
-	speaker.Character:FindFirstChildOfClass('Humanoid').WalkToPoint = Vector3.new(args[1],args[2],args[3])
 end)
 
 addcmd('loopspeed',{'loopws'},function(args, speaker)
@@ -8966,27 +8360,6 @@ addcmd('unloopjumppower',{'unloopjp','unloopjpower'},function(args, speaker)
 			speaker.Character:FindFirstChildOfClass('Humanoid').JumpPower = 50
 		else
 			speaker.Character:FindFirstChildOfClass('Humanoid').JumpHeight  = 50
-		end
-	end
-end)
-
-addcmd('notools',{'rtools','clrtools','removetools','deletetools','dtools'},function(args, speaker)
-	for i,v in pairs(speaker:FindFirstChildOfClass("Backpack"):GetDescendants()) do
-		if v:IsA('Tool') or v:IsA('HopperBin') then
-			v:Destroy()
-		end
-	end
-	for i,v in pairs(speaker.Character:GetDescendants()) do
-		if v:IsA('Tool') or v:IsA('HopperBin') then
-			v:Destroy()
-		end
-	end
-end)
-
-addcmd('deleteselectedtool',{'dst'},function(args, speaker)
-	for i,v in pairs(speaker.Character:GetDescendants()) do
-		if v:IsA('Tool') or v:IsA('HopperBin') then
-			v:Destroy()
 		end
 	end
 end)
@@ -9076,41 +8449,6 @@ addcmd('audiologger',{'alogger'},function(args, speaker)
 	loadstring(game:HttpGet(('https://pastebin.com/raw/GmbrsEjM'),true))()
 end)
 
-local loopgoto = nil
-addcmd('loopgoto',{},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		loopgoto = nil
-		if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-			speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-			wait(.1)
-		end
-		loopgoto = Players[v]
-		local distance = 3
-		if args[2] and isNumber(args[2]) then
-			distance = args[2]
-		end
-		local lDelay = 0
-		if args[3] and isNumber(args[3]) then
-			lDelay = args[3]
-		end
-		repeat
-			if Players:FindFirstChild(v) then
-				if Players[v].Character ~= nil then
-					getRoot(speaker.Character).CFrame = getRoot(Players[v].Character).CFrame + Vector3.new(distance,1,0)
-				end
-				wait(lDelay)
-			else
-				loopgoto = nil
-			end
-		until loopgoto ~= Players[v]
-	end
-end)
-
-addcmd('unloopgoto',{'noloopgoto'},function(args, speaker)
-	loopgoto = nil
-end)
-
 addcmd('headsit',{},function(args, speaker)
 	local players = getPlayer(args[1], speaker)
 	for i,v in pairs(players)do
@@ -9154,47 +8492,6 @@ addcmd('whisper',{'pm'},function(args, speaker)
 			local pmstring = getstring(2)
 			ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/w "..plrName.." "..pmstring, "All")
 		end)
-	end
-end)
-
-pmspamming = {}
-addcmd('pmspam',{},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		task.spawn(function()
-			local plrName = Players[v].Name
-			if FindInTable(pmspamming, plrName) then return end
-			table.insert(pmspamming, plrName)
-			local pmspamstring = getstring(2)
-			repeat
-				if Players:FindFirstChild(v) then
-					wait(spamspeed)
-					ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/w "..plrName.." "..pmspamstring, "All")
-				else
-					for a,b in pairs(pmspamming) do if b == plrName then table.remove(pmspamming, a) end end
-				end
-			until not FindInTable(pmspamming, plrName)
-		end)
-	end
-end)
-
-addcmd('nopmspam',{'unpmspam'},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		task.spawn(function()
-			for a,b in pairs(pmspamming) do
-				if b == Players[v].Name then
-					table.remove(pmspamming, a)
-				end
-			end
-		end)
-	end
-end)
-
-addcmd('spamspeed',{},function(args, speaker)
-	local speed = args[1] or 1
-	if isNumber(speed) then
-		spamspeed = speed
 	end
 end)
 
@@ -9247,380 +8544,11 @@ addcmd('unbang',{'unrape'},function(args, speaker)
 	end
 end)
 
-addcmd('carpet',{},function(args, speaker)
-	if not r15(speaker) then
-		execCmd('uncarpet')
-		wait()
-		local players = getPlayer(args[1], speaker)
-		for i,v in pairs(players)do
-			carpetAnim = Instance.new("Animation")
-			carpetAnim.AnimationId = "rbxassetid://282574440"
-			carpet = speaker.Character:FindFirstChildOfClass('Humanoid'):LoadAnimation(carpetAnim)
-			carpet:Play(.1, 1, 1)
-			local carpetplr = Players[v].Name
-			carpetDied = speaker.Character:FindFirstChildOfClass'Humanoid'.Died:Connect(function()
-				carpetLoop:Disconnect()
-				carpet:Stop()
-				carpetAnim:Destroy()
-				carpetDied:Disconnect()
-			end)
-			carpetLoop = RunService.Heartbeat:Connect(function()
-				pcall(function()
-					getRoot(Players.LocalPlayer.Character).CFrame = getRoot(Players[carpetplr].Character).CFrame
-				end)
-			end)
-		end
-	else
-		notify('R6 Required','This command requires the r6 rig type')
-	end
-end)
-
-addcmd('uncarpet',{'nocarpet'},function(args, speaker)
-	if carpetLoop then
-		carpetLoop:Disconnect()
-		carpetDied:Disconnect()
-		carpet:Stop()
-		carpetAnim:Destroy()
-	end
-end)
-
-addcmd('friend',{},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		speaker:RequestFriendship(v)
-	end
-end)
-
-addcmd('unfriend',{},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		speaker:RevokeFriendship(v)
-	end
-end)
-
-addcmd('bringpart',{},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.Name:lower() == getstring(1):lower() and v:IsA("BasePart") then
-			v.CFrame = getRoot(speaker.Character).CFrame
-		end
-	end
-end)
-
-addcmd('bringpartclass',{'bpc'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.ClassName:lower() == getstring(1):lower() and v:IsA("BasePart") then
-			v.CFrame = getRoot(speaker.Character).CFrame
-		end
-	end
-end)
-
-gotopartDelay = 0.1
-addcmd('gotopart',{'topart'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.Name:lower() == getstring(1):lower() and v:IsA("BasePart") then
-			if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-				wait(.1)
-			end
-			wait(gotopartDelay)
-			getRoot(speaker.Character).CFrame = v.CFrame
-		end
-	end
-end)
-
-addcmd('tweengotopart',{'tgotopart','ttopart'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.Name:lower() == getstring(1):lower() and v:IsA("BasePart") then
-			if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-				wait(.1)
-			end
-			wait(gotopartDelay)
-			TweenService:Create(getRoot(speaker.Character), TweenInfo.new(tweenSpeed, Enum.EasingStyle.Linear), {CFrame = v.CFrame}):Play()
-		end
-	end
-end)
-
-addcmd('gotopartclass',{'gpc'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.ClassName:lower() == getstring(1):lower() and v:IsA("BasePart") then
-			if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-				wait(.1)
-			end
-			wait(gotopartDelay)
-			getRoot(speaker.Character).CFrame = v.CFrame
-		end
-	end
-end)
-
-addcmd('tweengotopartclass',{'tgpc'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.ClassName:lower() == getstring(1):lower() and v:IsA("BasePart") then
-			if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-				wait(.1)
-			end
-			wait(gotopartDelay)
-			TweenService:Create(getRoot(speaker.Character), TweenInfo.new(tweenSpeed, Enum.EasingStyle.Linear), {CFrame = v.CFrame}):Play()
-		end
-	end
-end)
-
-addcmd('gotomodel',{'tomodel'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.Name:lower() == getstring(1):lower() and v:IsA("Model") then
-			if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-				wait(.1)
-			end
-			wait(gotopartDelay)
-			getRoot(speaker.Character).CFrame = v:GetModelCFrame()
-		end
-	end
-end)
-
-addcmd('tweengotomodel',{'tgotomodel','ttomodel'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v.Name:lower() == getstring(1):lower() and v:IsA("Model") then
-			if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-				speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-				wait(.1)
-			end
-			wait(gotopartDelay)
-			TweenService:Create(getRoot(speaker.Character), TweenInfo.new(tweenSpeed, Enum.EasingStyle.Linear), {CFrame = v:GetModelCFrame()}):Play()
-		end
-	end
-end)
-
-addcmd('gotopartdelay',{},function(args, speaker)
-	local gtpDelay = args[1] or 0.1
-	if isNumber(gtpDelay) then
-		gotopartDelay = gtpDelay
-	end
-end)
-
-addcmd('noclickdetectorlimits',{'nocdlimits','removecdlimits'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v:IsA("ClickDetector") then
-			v.MaxActivationDistance = math.huge
-		end
-	end
-end)
-
-addcmd('fireclickdetectors',{'firecd','firecds'},function(args, speaker)
-	if fireclickdetector then
-		for i,v in pairs(workspace:GetDescendants()) do
-			if v:IsA("ClickDetector") then
-				fireclickdetector(v)
-			end
-		end
-	else
-		notify('Incompatible Exploit','Your exploit does not support this command (missing fireclickdetector)')
-	end
-end)
-
-addcmd('noproximitypromptlimits',{'nopplimits','removepplimits'},function(args, speaker)
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v:IsA("ProximityPrompt") then
-			v.MaxActivationDistance = math.huge
-		end
-	end
-end)
-
-addcmd('fireproximityprompts',{'firepp'},function(args, speaker)
-	if fireproximityprompt then
-		for i,v in pairs(workspace:GetDescendants()) do
-			if v:IsA("ProximityPrompt") then
-				fireproximityprompt(v)
-			end
-		end
-	else
-		notify('Incompatible Exploit','Your exploit does not support this command (missing fireproximityprompt)')
-	end
-end)
-
-local PromptButtonHoldBegan = nil
-addcmd('instantproximityprompts',{'instantpp'},function(args, speaker)
-	if fireproximityprompt then
-		execCmd("uninstantproximityprompts")
-		wait(0.1)
-		PromptButtonHoldBegan = ProximityPromptService.PromptButtonHoldBegan:Connect(function(prompt)
-			fireproximityprompt(prompt)
-		end)
-	else
-		notify('Incompatible Exploit','Your exploit does not support this command (missing fireproximityprompt)')
-	end
-end)
-
-addcmd('uninstantproximityprompts',{'uninstantpp'},function(args, speaker)
-	if PromptButtonHoldBegan ~= nil then
-		PromptButtonHoldBegan:Disconnect()
-		PromptButtonHoldBegan = nil
-	end
-end)
-
-addcmd('notifyping',{'ping'},function(args, speaker)
-	local Current_Ping = string.split(StatsService.Network.ServerStatsItem["Data Ping"]:GetValueString(), " ")[1] .. "ms"
-	notify("Ping", tostring(Current_Ping))
-end)
-
-simRadius = false
-addcmd('simulationradius',{'simradius'},function(args, speaker)
-	if sethidden then		
-		simRadLoop = RunService.Stepped:Connect(function()
-			if setsimulation then
-				setsimulation(1e308, 1/0)
-			else	
-				sethidden(speaker,"MaximumSimulationRadius",1/0)
-				sethidden(speaker,"SimulationRadius", 1e308)
-			end
-		end)
-		simRadius = true
-	else
-		notify('Incompatible Exploit','Your exploit does not support this command (missing sethiddenproperty)')
-	end
-end)
-
-addcmd('nosimulationradius',{'nosimradius','unsimradius'},function(args, speaker)
-	if sethidden then		
-		if simRadLoop then simRadLoop:Disconnect() end
-		wait()
-		if setsimulation then
-			setsimulation(139,139)
-		else	
-			sethidden(speaker,"MaximumSimulationRadius",139)
-			sethidden(speaker,"SimulationRadius", 139)
-		end
-		simRadius = false
-	else
-		notify('Incompatible Exploit','Your exploit does not support this command (missing sethiddenproperty)')
-	end
-end)
-
-addcmd('grabtools', {}, function(args, speaker)
-	local Human = speaker.Character:FindFirstChildWhichIsA("Humanoid")
-	for _, v in ipairs(workspace:GetChildren()) do
-		if speaker.Character and v:IsA("BackpackItem") and v:FindFirstChild("Handle") then
-			Human:EquipTool(v)
-		end
-	end
-	if grabtoolsFunc then grabtoolsFunc:Disconnect() end
-	grabtoolsFunc = workspace.ChildAdded:Connect(function(v)
-		if speaker.Character and v:IsA("BackpackItem") and v:FindFirstChild("Handle") then
-			speaker.Character:WaitForChild("Humanoid"):EquipTool(v)
-		end
-	end)
-	notify('Grabtools', 'Picking up any dropped tools')
-end)
-
-addcmd('nograbtools',{'ungrabtools'},function(args, speaker)
-	if grabtoolsFunc then grabtoolsFunc:Disconnect() end
-	notify('Grabtools','Grabtools has been disabled')
-end)
-
-local specifictoolremoval = {}
-addcmd('removespecifictool',{},function(args, speaker)
-	if args[1] and speaker:FindFirstChildOfClass("Backpack") then
-		local tool = string.lower(getstring(1))
-		local RST = RunService.RenderStepped:Connect(function()
-			if speaker:FindFirstChildOfClass("Backpack") then
-				for i,v in pairs(speaker:FindFirstChildOfClass("Backpack"):GetChildren()) do
-					if v.Name:lower() == tool then
-						v:Remove()
-					end
-				end
-			end
-		end)
-		specifictoolremoval[tool] = RST
-	end
-end)
-
-addcmd('unremovespecifictool',{},function(args, speaker)
-	if args[1] then
-		local tool = string.lower(getstring(1))
-		if specifictoolremoval[tool] ~= nil then
-			specifictoolremoval[tool]:Disconnect()
-			specifictoolremoval[tool] = nil
-		end
-	end
-end)
-
-addcmd('clearremovespecifictool',{},function(args, speaker)
-	for obj in pairs(specifictoolremoval) do
-		specifictoolremoval[obj]:Disconnect()
-		specifictoolremoval[obj] = nil
-	end
-end)
-
-addcmd('light',{},function(args, speaker)
-	local light = Instance.new("PointLight")
-	light.Parent = getRoot(speaker.Character)
-	light.Range = 30
-	if args[1] then
-		light.Brightness = args[2]
-		light.Range = args[1]
-	else
-		light.Brightness = 5
-	end
-end)
-
-addcmd('unlight',{'nolight'},function(args, speaker)
-	for i,v in pairs(speaker.Character:GetDescendants()) do
-		if v.ClassName == "PointLight" then
-			v:Destroy()
-		end
-	end
-end)
-
-addcmd('copytools',{},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players)do
-		task.spawn(function()
-			for i,v in pairs(Players[v]:FindFirstChildOfClass("Backpack"):GetChildren()) do
-				if v:IsA('Tool') or v:IsA('HopperBin') then
-					v:Clone().Parent = speaker:FindFirstChildOfClass("Backpack")
-				end
-			end
-		end)
-	end
-end)
-
-addcmd('naked',{},function(args, speaker)
-	for i,v in pairs(speaker.Character:GetDescendants()) do
-		if v:IsA("Clothing") or v:IsA("ShirtGraphic") then
-			v:Destroy()
-		end
-	end
-end)
-
 addcmd('noface',{'removeface'},function(args, speaker)
 	for i,v in pairs(speaker.Character:GetDescendants()) do
 		if v:IsA("Decal") and v.Name == 'face' then
 			v:Destroy()
 		end
-	end
-end)
-
-addcmd('spawnpoint',{'spawn'},function(args, speaker)
-	spawnpos = getRoot(speaker.Character).CFrame
-	spawnpoint = true
-	spDelay = tonumber(args[1]) or 0.1
-	notify('Spawn Point','Spawn point created at '..tostring(spawnpos))
-end)
-
-addcmd('nospawnpoint',{'nospawn','removespawnpoint'},function(args, speaker)
-	spawnpoint = false
-	notify('Spawn Point','Removed spawn point')
-end)
-
-addcmd('flashback',{'diedtp'},function(args, speaker)
-	if lastDeath ~= nil then
-		if speaker.Character:FindFirstChildOfClass('Humanoid') and speaker.Character:FindFirstChildOfClass('Humanoid').SeatPart then
-			speaker.Character:FindFirstChildOfClass('Humanoid').Sit = false
-			wait(.1)
-		end
-		getRoot(speaker.Character).CFrame = lastDeath
 	end
 end)
 
@@ -9705,42 +8633,6 @@ addcmd('split',{},function(args, speaker)
 	end
 end)
 
-addcmd('nilchar',{},function(args, speaker)
-	if speaker.Character ~= nil then
-		speaker.Character.Parent = nil
-	end
-end)
-
-addcmd('unnilchar',{'nonilchar'},function(args, speaker)
-	if speaker.Character ~= nil then
-		speaker.Character.Parent = workspace
-	end
-end)
-
-addcmd('noroot',{'removeroot','rroot'},function(args, speaker)
-	if speaker.Character ~= nil then
-		local char = Players.LocalPlayer.Character
-		char.Parent = nil
-		char.HumanoidRootPart:Destroy()
-		char.Parent = workspace
-	end
-end)
-
-addcmd('replaceroot',{'replacerootpart'},function(args, speaker)
-	if speaker.Character ~= nil and speaker.Character:FindFirstChild("HumanoidRootPart") then
-		local Char = speaker.Character
-		local OldParent = Char.Parent
-		local HRP = Char and Char:FindFirstChild("HumanoidRootPart")
-		local OldPos = HRP.CFrame
-		Char.Parent = game
-		local HRP1 = HRP:Clone()
-		HRP1.Parent = Char
-		HRP = HRP:Destroy()
-		HRP1.CFrame = OldPos
-		Char.Parent = OldParent
-	end
-end)
-
 addcmd('clearcharappearance',{'clearchar','clrchar'},function(args, speaker)
 	speaker:ClearCharacterAppearance()
 end)
@@ -9772,188 +8664,6 @@ local function GetHandleTools(p)
 	end
 	return r
 end
-addcmd('dupetools', {'clonetools'}, function(args, speaker)
-	local LOOP_NUM = tonumber(args[1]) or 1
-	local OrigPos = speaker.Character.HumanoidRootPart.Position
-	local Tools, TempPos = {}, Vector3.new(math.random(-2e5, 2e5), 2e5, math.random(-2e5, 2e5))
-	for i = 1, LOOP_NUM do
-		local Human = speaker.Character:WaitForChild("Humanoid")
-		wait(.1, Human.Parent:MoveTo(TempPos))
-		Human.RootPart.Anchored = speaker:ClearCharacterAppearance(wait(.1)) or true
-		local t = GetHandleTools(speaker)
-		while #t > 0 do
-			for _, v in ipairs(t) do
-				coroutine.wrap(function()
-					for _ = 1, 25 do
-						v.Parent = speaker.Character
-						v.Handle.Anchored = true
-					end
-					for _ = 1, 5 do
-						v.Parent = workspace
-					end
-					table.insert(Tools, v.Handle)
-				end)()
-			end
-			t = GetHandleTools(speaker)
-		end
-		wait(.1)
-		speaker.Character = speaker.Character:Destroy()
-		speaker.CharacterAdded:Wait():WaitForChild("Humanoid").Parent:MoveTo(LOOP_NUM == i and OrigPos or TempPos, wait(.1))
-		if i == LOOP_NUM or i % 5 == 0 then
-			local HRP = speaker.Character.HumanoidRootPart
-			if type(firetouchinterest) == "function" then
-				for _, v in ipairs(Tools) do
-					v.Anchored = not firetouchinterest(v, HRP, 1, firetouchinterest(v, HRP, 0)) and false or false
-				end
-			else
-				for _, v in ipairs(Tools) do
-					coroutine.wrap(function()
-						local x = v.CanCollide
-						v.CanCollide = false
-						v.Anchored = false
-						for _ = 1, 10 do
-							v.CFrame = HRP.CFrame
-							wait()
-						end
-						v.CanCollide = x
-					end)()
-				end
-			end
-			wait(.1)
-			Tools = {}
-		end
-		TempPos = TempPos + Vector3.new(10, math.random(-5, 5), 0)
-	end
-end)
-
-local RS = RunService.RenderStepped
-addcmd('givetool', {'givetools'}, function(args, speaker)
-	local v = Players[getPlayer(args[1], speaker)[1]].Character
-	workspace.CurrentCamera.CameraSubject = v
-	local Char = speaker.Character or workspace:FindFirstChild(speaker.Name)
-	local hum = Char and Char:FindFirstChildWhichIsA('Humanoid')
-	local hrp = hum and hum.RootPart
-	local hrppos = hrp.CFrame
-	hum = hum:Destroy() or hum:Clone()
-	hum.Parent = Char
-	hum:ClearAllChildren()
-	speaker:ClearCharacterAppearance()
-	coroutine.wrap(function()
-		speaker.CharacterAdded:Wait():WaitForChild('Humanoid').RootPart.CFrame = wait() and hrppos
-	end)()
-	local vHRP = getRoot(v)
-	while Char and Char.Parent and vHRP and vHRP.Parent do
-		local Tools = false
-		for _, v in ipairs(Char:GetChildren()) do
-			if v:IsA('BackpackItem') and v:FindFirstChild('Handle') then
-				Tools = true
-				firetouchinterest(v.Handle, vHRP, 0)
-				firetouchinterest(v.Handle, vHRP, 1)
-			end
-		end
-		if not Tools then
-			break
-		end
-		hrp.CFrame = vHRP.CFrame
-		RS:Wait()
-	end
-	execCmd('re')
-end)
-
-addcmd('touchinterests', {'touchinterest', 'firetouchinterests', 'firetouchinterest'}, function(args, speaker)
-	local Root = getRoot(speaker.Character) or speaker.Character:FindFirstChildWhichIsA("BasePart")
-	local function Touch(x)
-		x = x.FindFirstAncestorWhichIsA(x, "Part")
-		if x then
-			if firetouchinterest then
-				return task.spawn(function()
-					firetouchinterest(x, Root, 1, wait() and firetouchinterest(x, Root, 0))
-				end)
-			end
-			x.CFrame = Root.CFrame
-		end
-	end
-	for _, v in ipairs(workspace:GetDescendants()) do
-		if v.IsA(v, "TouchTransmitter") then
-			Touch(v)
-		end
-	end
-end)
-
-addcmd('fullbright',{'fb','fullbrightness'},function(args, speaker)
-	Lighting.Brightness = 2
-	Lighting.ClockTime = 14
-	Lighting.FogEnd = 100000
-	Lighting.GlobalShadows = false
-	Lighting.OutdoorAmbient = Color3.fromRGB(128, 128, 128)
-end)
-
-addcmd('loopfullbright',{'loopfb'},function(args, speaker)
-	if brightLoop then
-		brightLoop:Disconnect()
-	end
-	local function brightFunc()
-		Lighting.Brightness = 2
-		Lighting.ClockTime = 14
-		Lighting.FogEnd = 100000
-		Lighting.GlobalShadows = false
-		Lighting.OutdoorAmbient = Color3.fromRGB(128, 128, 128)
-	end
-
-	brightLoop = RunService.RenderStepped:Connect(brightFunc)
-end)
-
-addcmd('unloopfullbright',{'unloopfb'},function(args, speaker)
-	if brightLoop then
-		brightLoop:Disconnect()
-	end
-end)
-
-addcmd('ambient',{},function(args, speaker)
-	Lighting.Ambient = Color3.new(args[1],args[2],args[3])
-	Lighting.OutdoorAmbient = Color3.new(args[1],args[2],args[3])
-end)
-
-addcmd('day',{},function(args, speaker)
-	Lighting.ClockTime = 14
-end)
-
-addcmd('night',{},function(args, speaker)
-	Lighting.ClockTime = 0
-end)
-
-addcmd('nofog',{},function(args, speaker)
-	Lighting.FogEnd = 100000
-	for i,v in pairs(Lighting:GetDescendants()) do
-		if v:IsA("Atmosphere") then
-			v:Destroy()
-		end
-	end
-end)
-
-addcmd('brightness',{},function(args, speaker)
-	Lighting.Brightness = args[1]
-end)
-
-addcmd('globalshadows',{'gshadows'},function(args, speaker)
-	Lighting.GlobalShadows = true
-end)
-
-addcmd('unglobalshadows',{'nogshadows','ungshadows','noglobalshadows'},function(args, speaker)
-	Lighting.GlobalShadows = false
-end)
-
-origsettings = {abt = Lighting.Ambient, oabt = Lighting.OutdoorAmbient, brt = Lighting.Brightness, time = Lighting.ClockTime, fe = Lighting.FogEnd, fs = Lighting.FogStart, gs = Lighting.GlobalShadows}
-
-addcmd('restorelighting',{'rlighting'},function(args, speaker)
-	Lighting.Ambient = origsettings.abt
-	Lighting.OutdoorAmbient = origsettings.oabt
-	Lighting.Brightness = origsettings.brt
-	Lighting.ClockTime = origsettings.time
-	Lighting.FogEnd = origsettings.fe
-	Lighting.FogStart = origsettings.fs
-	Lighting.GlobalShadows = origsettings.gs
-end)
 
 addcmd('stun',{'platformstand'},function(args, speaker)
 	speaker.Character:FindFirstChildOfClass('Humanoid').PlatformStand = true
@@ -9961,30 +8671,6 @@ end)
 
 addcmd('unstun',{'nostun','unplatformstand','noplatformstand'},function(args, speaker)
 	speaker.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
-end)
-
-addcmd('norotate',{'noautorotate'},function(args, speaker)
-	speaker.Character:FindFirstChildOfClass('Humanoid').AutoRotate  = false
-end)
-
-addcmd('unnorotate',{'autorotate'},function(args, speaker)
-	speaker.Character:FindFirstChildOfClass('Humanoid').AutoRotate  = true
-end)
-
-addcmd('enablestate',{},function(args, speaker)
-	local x = args[1]
-	if not tonumber(x) then
-		local x = Enum.HumanoidStateType[args[1]]
-	end
-	speaker.Character:FindFirstChildOfClass("Humanoid"):SetStateEnabled(x, true)
-end)
-
-addcmd('disablestate',{},function(args, speaker)
-	local x = args[1]
-	if not tonumber(x) then
-		local x = Enum.HumanoidStateType[args[1]]
-	end
-	speaker.Character:FindFirstChildOfClass("Humanoid"):SetStateEnabled(x, false)
 end)
 
 addcmd('drophats',{'drophat'},function(args, speaker)
@@ -10007,134 +8693,7 @@ addcmd('deletehats',{'nohats','rhats'},function(args, speaker)
 	end
 end)
 
-addcmd('droptools',{'droptool'},function(args, speaker)
-	for i,v in pairs(Players.LocalPlayer.Backpack:GetChildren()) do
-		if v:IsA("Tool") then
-			v.Parent = Players.LocalPlayer.Character
-		end
-	end
-	wait()
-	for i,v in pairs(Players.LocalPlayer.Character:GetChildren()) do
-		if v:IsA("Tool") then
-			v.Parent = workspace
-		end
-	end
-end)
-
-addcmd('droppabletools',{},function(args, speaker)
-	if speaker.Character then
-		for _,obj in pairs(speaker.Character:GetChildren()) do
-			if obj:IsA("Tool") then
-				obj.CanBeDropped = true
-			end
-		end
-	end
-	if speaker:FindFirstChildOfClass("Backpack") then
-		for _,obj in pairs(speaker:FindFirstChildOfClass("Backpack"):GetChildren()) do
-			if obj:IsA("Tool") then
-				obj.CanBeDropped = true
-			end
-		end
-	end
-end)
-
-local currentToolSize = ""
-local currentGripPos = ""
-addcmd('reach',{},function(args, speaker)
-	execCmd('unreach')
-	wait()
-	for i,v in pairs(speaker.Character:GetDescendants()) do
-		if v:IsA("Tool") then
-			if args[1] then
-				currentToolSize = v.Handle.Size
-				currentGripPos = v.GripPos
-				local a = Instance.new("SelectionBox")
-				a.Name = "SelectionBoxCreated"
-				a.Parent = v.Handle
-				a.Adornee = v.Handle
-				v.Handle.Massless = true
-				v.Handle.Size = Vector3.new(0.5,0.5,args[1])
-				v.GripPos = Vector3.new(0,0,0)
-				speaker.Character:FindFirstChildOfClass('Humanoid'):UnequipTools()
-			else
-				currentToolSize = v.Handle.Size
-				currentGripPos = v.GripPos
-				local a = Instance.new("SelectionBox")
-				a.Name = "SelectionBoxCreated"
-				a.Parent = v.Handle
-				a.Adornee = v.Handle
-				v.Handle.Massless = true
-				v.Handle.Size = Vector3.new(0.5,0.5,60)
-				v.GripPos = Vector3.new(0,0,0)
-				speaker.Character:FindFirstChildOfClass('Humanoid'):UnequipTools()
-			end
-		end
-	end
-end)
-
-addcmd('unreach',{'noreach'},function(args, speaker)
-	for i,v in pairs(speaker.Character:GetDescendants()) do
-		if v:IsA("Tool") then
-			v.Handle.Size = currentToolSize
-			v.GripPos = currentGripPos
-			v.Handle.SelectionBoxCreated:Destroy()
-		end
-	end
-end)
-
-addcmd('grippos',{},function(args, speaker)
-	for i,v in pairs(speaker.Character:GetDescendants()) do
-		if v:IsA("Tool") then
-			v.Parent = speaker:FindFirstChildOfClass("Backpack")
-			v.GripPos = Vector3.new(args[1],args[2],args[3])
-			v.Parent = speaker.Character
-		end
-	end
-end)
-
-addcmd('usetools', {}, function(args, speaker)
-	local Backpack = speaker:FindFirstChildOfClass("Backpack")
-	local ammount = tonumber(args[1]) or 1
-	local delay_ = tonumber(args[2]) or false
-	for _, v in ipairs(Backpack:GetChildren()) do
-		v.Parent = speaker.Character
-		coroutine.wrap(function()
-			for _ = 1, ammount do
-				v:Activate()
-				if delay_ then
-					wait(delay_)
-				end
-			end
-			v.Parent = Backpack
-		end)()
-	end
-end)
-
 addcmd('logs',{},function(args, speaker)
-	logs:TweenPosition(UDim2.new(0, 0, 1, -265), "InOut", "Quart", 0.3, true, nil)
-end)
-
-addcmd('chatlogs',{'clogs'},function(args, speaker)
-	join.Visible = false
-	chat.Visible = true
-	table.remove(shade3,table.find(shade3,selectChat))
-	table.remove(shade2,table.find(shade2,selectJoin))
-	table.insert(shade2,selectChat)
-	table.insert(shade3,selectJoin)
-	selectJoin.BackgroundColor3 = currentShade3
-	selectChat.BackgroundColor3 = currentShade2
-	logs:TweenPosition(UDim2.new(0, 0, 1, -265), "InOut", "Quart", 0.3, true, nil)
-end)
-
-addcmd('joinlogs',{'jlogs'},function(args, speaker)
-	chat.Visible = false
-	join.Visible = true	
-	table.remove(shade3,table.find(shade3,selectJoin))
-	table.remove(shade2,table.find(shade2,selectChat))
-	table.insert(shade2,selectJoin)
-	table.insert(shade3,selectChat)
-	selectChat.BackgroundColor3 = currentShade3
-	selectJoin.BackgroundColor3 = currentShade2
 	logs:TweenPosition(UDim2.new(0, 0, 1, -265), "InOut", "Quart", 0.3, true, nil)
 end)
 
@@ -10212,156 +8771,6 @@ addcmd('unfling',{},function(args, speaker)
 	flingtbl.OldVelocity = nil
 	flingtbl.OldPos = nil
 	flinging = false
-end)
-
-addcmd('togglefling',{},function(args, speaker)
-	if flinging then
-		execCmd('unfling')
-	else
-		execCmd('fling')
-	end
-end)
-
-addcmd('invisfling',{},function(args, speaker)
-	local ch = speaker.Character
-	local prt=Instance.new("Model")
-	prt.Parent = speaker.Character
-	local z1 = Instance.new("Part")
-	z1.Name="Torso"
-	z1.CanCollide = false
-	z1.Anchored = true
-	local z2 = Instance.new("Part")
-	z2.Name="Head"
-	z2.Parent = prt
-	z2.Anchored = true
-	z2.CanCollide = false
-	local z3 =Instance.new("Humanoid")
-	z3.Name="Humanoid"
-	z3.Parent = prt
-	z1.Position = Vector3.new(0,9999,0)
-	speaker.Character=prt
-	wait(3)
-	speaker.Character=ch
-	wait(3)
-	local Hum = Instance.new("Humanoid")
-	z2:Clone()
-	Hum.Parent = speaker.Character
-	local root =  getRoot(speaker.Character)
-	for i,v in pairs(speaker.Character:GetChildren()) do
-		if v ~= root and  v.Name ~= "Humanoid" then
-			v:Destroy()
-		end
-	end
-	root.Transparency = 0
-	root.Color = Color3.new(1, 1, 1)
-	local invisflingStepped
-	invisflingStepped = RunService.Stepped:Connect(function()
-		if speaker.Character and getRoot(speaker.Character) then
-			getRoot(speaker.Character).CanCollide = false
-		else
-			invisflingStepped:Disconnect()
-		end
-	end)
-	sFLY()
-	workspace.CurrentCamera.CameraSubject = root
-	local bambam = Instance.new("BodyThrust")
-	bambam.Parent = getRoot(speaker.Character)
-	bambam.Force = Vector3.new(99999,99999*10,99999)
-	bambam.Location = getRoot(speaker.Character).Position
-end)
-
-function attach(speaker,target)
-	if tools(speaker) then
-		local char = speaker.Character
-		local tchar = target.Character
-		local hum = speaker.Character:FindFirstChildOfClass("Humanoid")
-		local hrp = getRoot(speaker.Character)
-		local hrp2 = getRoot(target.Character)
-		hum.Name = "1"
-		local newHum = hum:Clone()
-		newHum.Parent = char
-		newHum.Name = "Humanoid"
-		wait()
-		hum:Destroy()
-		workspace.CurrentCamera.CameraSubject = char
-		newHum.DisplayDistanceType = "None"
-		local tool = speaker:FindFirstChildOfClass("Backpack"):FindFirstChildOfClass("Tool") or speaker.Character:FindFirstChildOfClass("Tool")
-		tool.Parent = char
-		hrp.CFrame = hrp2.CFrame * CFrame.new(0, 0, 0) * CFrame.new(math.random(-100, 100)/200,math.random(-100, 100)/200,math.random(-100, 100)/200)
-		local n = 0
-		repeat
-			wait(.1)
-			n = n + 1
-			hrp.CFrame = hrp2.CFrame
-		until (tool.Parent ~= char or not hrp or not hrp2 or not hrp.Parent or not hrp2.Parent or n > 250) and n > 2
-	else
-		notify('Tool Required','You need to have an item in your inventory to use this command')
-	end
-end
-
-addcmd('attach',{},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players) do
-		attach(speaker,Players[v])
-	end
-end)
-
-function kill(speaker,target,fast)
-	if tools(speaker) then
-		if target ~= nil then
-			local NormPos = getRoot(speaker.Character).CFrame
-			if not fast then
-				refresh(speaker)
-				wait()
-				repeat wait() until speaker.Character ~= nil and getRoot(speaker.Character)
-				wait(0.3)
-			end
-			local hrp = getRoot(speaker.Character)
-			attach(speaker,target)
-			repeat
-				wait()
-				hrp.CFrame = CFrame.new(999999, workspace.FallenPartsDestroyHeight + 5,999999)
-			until not getRoot(target.Character) or not getRoot(speaker.Character)
-			wait(1)
-			speaker.CharacterAdded:Wait():WaitForChild("HumanoidRootPart").CFrame = NormPos
-		end
-	else
-		notify('Tool Required','You need to have an item in your inventory to use this command')
-	end
-end
-
-addcmd('kill',{'fekill'},function(args, speaker)
-	local players = getPlayer(args[1], speaker)
-	for i,v in pairs(players) do
-		kill(speaker,Players[v])
-	end
-end)
-
-addcmd('handlekill', {'hkill'}, function(args, speaker)
-	if not firetouchinterest then
-		return notify('Incompatible Exploit', 'Your exploit does not support this command (missing firetouchinterest)')
-	end
-	local RS = RunService.RenderStepped
-	local Tool = speaker.Character.FindFirstChildWhichIsA(speaker.Character, "Tool")
-	local Handle = Tool and Tool.FindFirstChild(Tool, "Handle")
-	if not Tool or not Handle then
-		return notify("Handle Kill", "You need to hold a \"Tool\" that does damage on touch. For example the default \"Sword\" tool.")
-	end
-	for _, v in ipairs(getPlayer(args[1], speaker)) do
-		v = Players[v]
-		task.spawn(function()
-			while Tool and speaker.Character and v.Character and Tool.Parent == speaker.Character do
-				local Human = v.Character.FindFirstChildWhichIsA(v.Character, "Humanoid")
-				if not Human or Human.Health <= 0 then
-					break
-				end
-				for _, v1 in ipairs(v.Character.GetChildren(v.Character)) do
-					v1 = ((v1.IsA(v1, "BasePart") and firetouchinterest(Handle, v1, 1, (RS.Wait(RS) and nil) or firetouchinterest(Handle, v1, 0)) and nil) or v1) or v1
-				end
-			end
-			notify("Handle Kill Stopped!", v.Name .. " died/left or you unequipped the tool!")
-		end)
-	end
 end)
 
 local hb = RunService.Heartbeat
