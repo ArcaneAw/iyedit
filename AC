@@ -4277,7 +4277,7 @@ CMDs[#CMDs + 1] = {NAME = 'swim', DESC = 'Allows you to swim in the air'}
 CMDs[#CMDs + 1] = {NAME = 'unswim / noswim', DESC = 'Stops you from swimming everywhere'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'setwaypoint / swp [name]', DESC = 'Sets a waypoint at your position'}
-CMDs[#CMDs + 1] = {NAME = 'gotowp [name]', DESC = 'Teleports player to a waypoint'}
+CMDs[#CMDs + 1] = {NAME = 'gotowp / wp [name]', DESC = 'Teleports player to a waypoint'}
 CMDs[#CMDs + 1] = {NAME = 'goto [plr]', DESC = 'Go to a player'}
 CMDs[#CMDs + 1] = {NAME = 'tweengoto / tgoto [plr]', DESC = 'Tween to a player (bypasses some anti cheats)'}
 CMDs[#CMDs + 1] = {NAME = 'timetp / ptp [plr] [seconds]', DESC = 'Teleports you to a player for a specified ammount of time'}
@@ -6677,7 +6677,7 @@ addcmd('setwaypoint',{'swp','setwp','spos','saveposition','savepos'},function(ar
 	updatesaves()
 end)
 
-addcmd('waypoint',{'wp','lpos','loadposition','loadpos'},function(args, speaker)
+addcmd('gotowp',{'wp','lpos','loadposition','loadpos'},function(args, speaker)
 	local WPName = tostring(getstring(1))
 	if speaker.Character then
 		for i,_ in pairs(WayPoints) do
