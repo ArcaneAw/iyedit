@@ -4277,6 +4277,7 @@ CMDs[#CMDs + 1] = {NAME = 'swim', DESC = 'Allows you to swim in the air'}
 CMDs[#CMDs + 1] = {NAME = 'unswim / noswim', DESC = 'Stops you from swimming everywhere'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'setwaypoint / swp [name]', DESC = 'Sets a waypoint at your position'}
+CMDs[#CMDs + 1] = {NAME = 'deletewaypoint / dwp [name]', DESC = 'Deletes a waypoint'}
 CMDs[#CMDs + 1] = {NAME = 'gotowp / wp [name]', DESC = 'Teleports player to a waypoint'}
 CMDs[#CMDs + 1] = {NAME = 'goto [plr]', DESC = 'Go to a player'}
 CMDs[#CMDs + 1] = {NAME = 'tweengoto / tgoto [plr]', DESC = 'Tween to a player (bypasses some anti cheats)'}
@@ -6673,6 +6674,32 @@ addcmd('setwaypoint',{'swp','setwp','spos','saveposition','savepos'},function(ar
 			AllWaypoints[#AllWaypoints + 1] = {NAME = WPName, COORD = {math.floor(torso.Position.X), math.floor(torso.Position.Y), math.floor(torso.Position.Z)}, GAME = game.PlaceId}
 		end
 	end	
+	refreshwaypoints()
+	updatesaves()
+end)
+
+addcmd('deletewaypoint',{'dwp','dpos','deleteposition','deletepos'},function(args, speaker)
+	for i,v in pairs(WayPoints) do
+		if v.NAME:lower() == tostring(getstring(1)):lower() then
+			notify('Modified Waypoints',"Deleted waypoint: " .. v.NAME)
+			table.remove(WayPoints, i)
+		end
+	end
+	if AllWaypoints ~= nil and #AllWaypoints > 0 then
+		for i,v in pairs(AllWaypoints) do
+			if v.NAME:lower() == tostring(getstring(1)):lower() then
+				if not v.GAME or v.GAME == game.PlaceId then
+					table.remove(AllWaypoints, i)
+				end
+			end
+		end
+	end
+	for i,v in pairs(pWayPoints) do
+		if v.NAME:lower() == tostring(getstring(1)):lower() then
+			notify('Modified Waypoints',"Deleted waypoint: " .. v.NAME)
+			table.remove(pWayPoints, i)
+		end
+	end
 	refreshwaypoints()
 	updatesaves()
 end)
