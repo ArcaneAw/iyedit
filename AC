@@ -7876,11 +7876,6 @@ addcmd('timetp',{'ptp'},function(args, speaker)
 	execCmd('breakvelocity')
 end)
 
-addcmd('unwalkto',{'nowalkto','unfollow','nofollow'},function(args, speaker)
-	walkto = false
-	waypointwalkto = false
-end)
-
 addcmd('freeze',{'fr'},function(args, speaker)
 	local players = getPlayer(args[1], speaker)
 	if players ~= nil then
