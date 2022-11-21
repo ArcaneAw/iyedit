@@ -6327,12 +6327,12 @@ addcmd('serverinfo',{'info','sinfo'},function(args, speaker)
 end)
 
 addcmd('jobid',{},function(args, speaker)
-	local jobId = 'Roblox.GameLauncher.joinGameInstance('..PlaceId..', "'..JobId..'")'
+	local jobId = '('..game.JobId..')'
 	toClipboard(jobId)
 end)
 
 addcmd('notifyjobid',{},function(args, speaker)
-	notify('JobId / PlaceId',JobId..' / '..PlaceId)
+	notify('JobId / PlaceId',game.JobId..' / '..game.PlaceId)
 end)
 
 addcmd('breakloops',{'break'},function(args, speaker)
