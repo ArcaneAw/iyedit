@@ -6327,12 +6327,12 @@ addcmd('serverinfo',{'info','sinfo'},function(args, speaker)
 end)
 
 addcmd('jobid',{},function(args, speaker)
-	local jobId = ''..game.JobId..''
+	local jobId = '('..game.JobId..')'
 	toClipboard(jobId)
 end)
 
 addcmd('placeid',{},function(args, speaker)
-	local placeId = ''..game.PlaceId..''
+	local placeId = '('..game.PlaceId..')'
 	toClipboard(placeId)
 end)
 
