@@ -4243,7 +4243,7 @@ CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens FrostHook Spy'}
 CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
-CMDs[#CMDs + 1] = {NAME = 'notifyjobid', DESC = 'Notifies you the games JobId'}
+CMDs[#CMDs + 1] = {NAME = 'placeid', DESC = 'Copies the games PlaceId to your clipboard'}
 CMDs[#CMDs + 1] = {NAME = 'rejoin / rj', DESC = 'Makes you rejoin the game'}
 CMDs[#CMDs + 1] = {NAME = 'autorejoin / autorj', DESC = 'Automatically rejoins the server if you get kicked/disconnected'}
 CMDs[#CMDs + 1] = {NAME = 'serverhop / shop', DESC = 'Teleports you to a different server'}
@@ -6331,8 +6331,9 @@ addcmd('jobid',{},function(args, speaker)
 	toClipboard(jobId)
 end)
 
-addcmd('notifyjobid',{},function(args, speaker)
-	notify('JobId / PlaceId',game.JobId..' / '..game.PlaceId)
+addcmd('placeid',{},function(args, speaker)
+	local jobId = '('..game.PlaceId..')'
+	toClipboard(jobId)
 end)
 
 addcmd('breakloops',{'break'},function(args, speaker)
